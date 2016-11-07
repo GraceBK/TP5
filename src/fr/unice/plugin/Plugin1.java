@@ -11,6 +11,6 @@ public class Plugin1 implements Plugin {
     }
 
     public void decrisToi() {
-        System.out.println("Je suis une instance de Plugin1");
+        System.out.println("Je suis une instance de Plugin1:)");
     }
 }
