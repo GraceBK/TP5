@@ -1,4 +1,6 @@
-package exemple;
+package fr.unice.plugin;
+
+import exemple.Plugin;
 
 /**
  * Created by graceboukou on 07/11/2016.

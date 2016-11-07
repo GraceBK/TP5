@@ -8,7 +8,7 @@ public class Exemple3 {
         Class c = null;
 
         try {
-            c = Class.forName("exemple.Plugin1");
+            c = Class.forName("fr.unice.plugin.Plugin1");
         }
         catch(ClassNotFoundException e) {
             System.err.println("Classe Plugin1 non trouvee");
