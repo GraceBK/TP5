@@ -15,7 +15,13 @@ public class Exemple3 {
             e.printStackTrace();
         }
 
-        try {
+        try {/**
+         QUESTION: a quoi sert la cast de l'objet o en Plugin (p = (plugin) o;)?
+         REPONSE : il permet de changer le type de l'objet o en type plugin
+
+         QUESTION: Ne pourrait-on ecrire directement c.newInstance().decrisToi();?
+         REPONSE : NON car la methode decrisToi() n'est pas une methode du type de l'objet c
+         */
             Object o = c.newInstance();
             Plugin p = (Plugin) o;
             p.decrisToi();
