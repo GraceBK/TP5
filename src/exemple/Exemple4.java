@@ -36,7 +36,9 @@ public class Exemple4 {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
             /**
-             *
+             * Changer le chemin car il charge tout les Plugin1
+             * QUESTION 1 : Est-ce que la modification est prise en compte ? Pourquoi ?
+             * REPONSE : NON Car le nouveau Plugin1 n'a pas ete charge
              */
             Plugin plugin = loadPlugin("Plugin1");
             plugin.decrisToi();
