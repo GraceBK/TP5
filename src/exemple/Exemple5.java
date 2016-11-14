@@ -1,5 +1,7 @@
 package exemple;
 
+import fr.unice.plugin.Plugin;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -47,7 +49,7 @@ public class Exemple5 {
              * QUESTION 1 : Est-ce que la modification est prise en compte ? Pourquoi ?
              * REPONSE : NON Car le nouveau Plugin1 n'a pas ete charge
              */
-            Plugin plugin = loadPlugin("Plugin1");
+            Plugin plugin = loadPlugin("fr.unice.plugin.Plugin1");
             plugin.decrisToi();
             try {
                 Thread.sleep(5000);

@@ -1,5 +1,7 @@
 package exemple;
 
+import fr.unice.plugin.Plugin;
+
 /**
  * Created by graceboukou on 12/11/2016.
  */
